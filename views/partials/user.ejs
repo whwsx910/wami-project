@@ -1,0 +1,12 @@
+    <section class="bg-primary"  id="locations">
+        <div class="container text-center">
+            <div>
+                <img id="qrcode" src="https://chart.googleapis.com/chart?chs=256x256&cht=qr&chl=<%= UID %>" class="image-responsive">
+                <img id="checkmark" class="hidden" src="/img/check_mark.png" class="image-responsive">
+            </div>
+            
+            <hr class="light">
+            <button class="btn btn-default btn-lg" onclick="logout()">Logout</button>
+        </div>
+    </section>
+    <input type="hidden" class="hidden" id="UID" value="<%= UID %>" />
