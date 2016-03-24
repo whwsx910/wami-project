@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /vip
+Disallow: /gallery
+Disallow: /foodanddrink
+Disallow: /news
+Disallow: /system
+Disallow: /scheduler
+Disallow: /resetpassword
